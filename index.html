@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>أم جمال للشحن الفوري وكروت شبكات النت</title>
+    <meta name="description" content="خدمات شحن فوري وكروت شبكات النت في اليمن - سريعة وآمنة">
+    <meta name="theme-color" content="#060b1a">
+    
+    <!-- Preconnect للخطوط -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- تحميل الخط مع تحسين الأداء -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- CSS مع تحسينات -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Preload للـ CSS المهم -->
+    <link rel="preload" href="style.css" as="style">
+</head>
+<body>
+
+    <div class="bg-orbs" aria-hidden="true">
+        <div class="bg-orb"></div>
+        <div class="bg-orb"></div>
+        <div class="bg-orb"></div>
+    </div>
+
+    <canvas id="particlesCanvas" aria-hidden="true" style="display: none;"></canvas>
+
+    <div class="app-wrapper">
+
+        <header class="header">
+            <div class="header-inner">
+                <div class="brand">
+                    <div class="brand-icon">⚡</div>
+                    <div class="brand-text">
+                        أم جمال
+                        <span>للشحن الفوري وكروت الشبكات</span>
+                    </div>
+                </div>
+                <nav class="nav-links">
+                    <a class="nav-link active" data-view="home" title="الرئيسية">🏠 الرئيسية</a>
+                    <a class="nav-link" data-view="recharge" title="الشحن الفوري">💳 الشحن الفوري</a>
+                    <a class="nav-link" data-view="cards" title="كروت الشبكات">📡 كروت الشبكات</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main-content">
+
+            <div id="view-home" class="view active">
+                <section class="hero">
+                    <div class="hero-glow"></div>
+                    <h1 class="hero-title">أم جمال للشحن الفوري<br>وكروت شبكات النت</h1>
+                    <p class="hero-subtitle">خدمات شحن فوري وكروت شبكات بسرعة وأمان وموثوقية - حلول متكاملة لجميع احتياجات اتصالاتك</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" data-nav="recharge">
+                            <span class="btn-icon">⚡</span> الشحن الفوري
+                        </button>
+                        <button class="btn btn-outline" data-nav="cards">
+                            <span class="btn-icon">📡</span> كروت الشبكات
+                        </button>
+                    </div>
+                </section>
+
+                <section style="margin-bottom: 30px;">
+                    <h2 class="section-title">خدماتنا</h2>
+                    <p class="section-subtitle">نقدم لك أفضل خدمات الشحن وكروت الشبكات بكل سهولة</p>
+                    <div class="cards-grid-2">
+                        <div class="glass-card glass-card-highlight" data-nav="recharge">
+                            <div class="card-icon">💳</div>
+                            <h3 class="card-title">شحن فوري</h3>
+                            <p class="card-desc">شحن رصيد وباقات إنترنت لجميع شركات الاتصالات اليمنية بسرعة وأمان مع تأكيد فوري</p>
+                        </div>
+                        <div class="glass-card" data-nav="cards">
+                            <div class="card-icon">📡</div>
+                            <h3 class="card-title">كروت شبكات</h3>
+                            <p class="card-desc">كروت إنترنت لشبكات أحمد ستار والمواسط والعزام بفئات متعددة تناسب احتياجك</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section style="margin-bottom: 30px;">
+                    <h2 class="section-title">لماذا نحن؟</h2>
+                    <p class="section-subtitle">مميزات تجعلنا الخيار الأمثل لخدمات الشحن</p>
+                    <div class="cards-grid-3">
+                        <div class="glass-card">
+                            <div class="card-icon">⚡</div>
+                            <h3 class="card-title">سرعة التنفيذ</h3>
+                            <p class="card-desc">طلبك يُنفذ فوراً دون تأخير مع إشعار مباشر بالتأكيد</p>
+                        </div>
+                        <div class="glass-card">
+                            <div class="card-icon">🔒</div>
+                            <h3 class="card-title">أمان وموثوقية</h3>
+                            <p class="card-desc">معاملات آمنة وموثوقة مع حماية كاملة لبياناتك ومعلومات الدفع</p>
+                        </div>
+                        <div class="glass-card">
+                            <div class="card-icon">💬</div>
+                            <h3 class="card-title">دعم مستمر</h3>
+                            <p class="card-desc">فريق دعم متاح للرد على استفساراتك ومساعدتك في أي وقت</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section style="margin-bottom: 20px;">
+                    <h2 class="section-title">تواصل معنا</h2>
+                    <p class="section-subtitle">نحن هنا لخدمتك - تواصل معنا مباشرة عبر الواتساب</p>
+                    <div class="contact-row">
+                        <a href="https://wa.me/967736955757" target="_blank" rel="noopener" class="contact-chip whatsapp">
+                            💬 واتساب الطلبات: 736955757
+                        </a>
+                    </div>
+                </section>
+            </div>
+
+            <div id="view-recharge" class="view">
+                <section style="padding-top: 10px;">
+                    <h2 class="section-title">الشحن الفوري</h2>
+                    <p class="section-subtitle">املأ النموذج أدناه لطلب شحن رصيد أو باقة إنترنت</p>
+                    <div class="form-glass">
+                        <div class="form-group">
+                            <label class="form-label">شركة الاتصالات</label>
+                            <select class="form-select" id="recharge-company">
+                                <option value="">-- اختر الشركة --</option>
+                                <option value="YOU">YOU</option>
+                                <option value="يمن موبايل">يمن موبايل</option>
+                                <option value="سبأفون">سبأفون</option>
+                                <option value="واي">واي</option>
+                            </select>
+                            <span class="error-msg" id="err-recharge-company">يرجى اختيار شركة الاتصالات</span>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">نوع الخدمة</label>
+                            <select class="form-select" id="recharge-service-type">
+                                <option value="">-- اختر نوع الخدمة --</option>
+                                <option value="رصيد">رصيد</option>
+                                <option value="باقة نت">باقة نت</option>
+                            </select>
+                            <span class="error-msg" id="err-recharge-service-type">يرجى اختيار نوع الخدمة</span>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" id="recharge-quantity-label">الكمية</label>
+                            <input type="text" class="form-input" id="recharge-quantity" placeholder="أدخل الكمية المطلوبة" inputmode="text">
+                            <span class="error-msg" id="err-recharge-quantity">يرجى إدخال الكمية</span>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">اسم العميل <span style="color:#f87171;">*</span></label>
+                            <input type="text" class="form-input" id="recharge-customer-name" placeholder="أدخل اسمك الكامل">
+                            <span class="error-msg" id="err-recharge-customer-name">يرجى إدخال اسم العميل</span>
+                        </div>
+                        <button class="btn-submit" data-form="recharge">📩 تقديم الطلب</button>
+                    </div>
+                </section>
+            </div>
+
+            <div id="view-cards" class="view">
+                <section style="padding-top: 10px;">
+                    <h2 class="section-title">كروت الشبكات</h2>
+                    <p class="section-subtitle">اطلب كروت الإنترنت من الشبكات المتاحة بكل سهولة</p>
+                    <div class="form-glass">
+                        <div class="form-group">
+                            <label class="form-label">نوع الشبكة</label>
+                            <select class="form-select" id="cards-network">
+                                <option value="">-- اختر الشبكة --</option>
+                                <option value="أحمد ستار">أحمد ستار</option>
+                                <option value="المواسط">المواسط</option>
+                                <option value="العزام">العزام</option>
+                            </select>
+                            <span class="error-msg" id="err-cards-network">يرجى اختيار نوع الشبكة</span>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">فئة الكرت</label>
+                            <select class="form-select" id="cards-category">
+                                <option value="">-- اختر الفئة --</option>
+                                <option value="200">200 ريال</option>
+                                <option value="300">300 ريال</option>
+                                <option value="500">500 ريال</option>
+                                <option value="1000">1000 ريال</option>
+                                <option value="3000">3000 ريال</option>
+                            </select>
+                            <span class="error-msg" id="err-cards-category">يرجى اختيار فئة الكرت</span>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">عدد الكروت</label>
+                            <input type="number" class="form-input" id="cards-count" placeholder="أدخل عدد الكروت المطلوبة" min="1" value="1">
+                            <span class="error-msg" id="err-cards-count">يرجى إدخال عدد الكروت (رقم صحيح)</span>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">اسم العميل <span style="color:#f87171;">*</span></label>
+                            <input type="text" class="form-input" id="cards-customer-name" placeholder="أدخل اسمك الكامل">
+                            <span class="error-msg" id="err-cards-customer-name">يرجى إدخال اسم العميل</span>
+                        </div>
+                        <button class="btn-submit" data-form="cards">📩 تقديم الطلب</button>
+                    </div>
+                </section>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <div class="footer-inner">
+                <span class="footer-credit-small">👨‍💻 تم البرمجة بواسطة المهندس عمرو عبدالله اليوسفي</span>
+                <span class="footer-sep">•</span>
+                <a href="https://wa.me/967779617470" target="_blank" rel="noopener" class="footer-small-link">
+                    <span class="emoji">💬</span> 779617470
+                </a>
+                <span class="footer-sep">•</span>
+                    <span class="emoji">📞</span> 734468805
+                </a>
+                <span class="footer-sep">•</span>
+                <a href="https://www.facebook.com/profile.php?id=100076894069302" target="_blank" rel="noopener" class="footer-small-link">
+                    <span class="emoji">📘</span> فيسبوك
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-glass">
+            <div class="modal-icon">✅</div>
+            <h3 class="modal-title">تأكيد الطلب</h3>
+            <p class="modal-subtitle">يرجى مراجعة تفاصيل الطلب قبل الإرسال</p>
+            <div class="modal-details" id="modalDetails"></div>
+            <div class="modal-buttons">
+                <button class="btn btn-cancel" id="modalCancelBtn">✏️ تعديل</button>
+                <button class="btn btn-confirm" id="modalConfirmBtn">💬 إرسال عبر واتساب</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
