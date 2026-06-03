@@ -253,7 +253,7 @@
         const quantityLabelText = document.getElementById('recharge-quantity-label')?.textContent || 'الكمية';
         const message = `طلب شحن فوري\nشركة: ${company}\nنوع الخدمة: ${serviceType}\n${quantityLabelText}: ${quantity}\nاسم العميل: ${customerName}`;
         const encodedMessage = encodeURIComponent(message);
-        const whatsappUrl = `https://wa.me/967736955757?text=${encodedMessage}`;
+        const whatsappUrl = `https://wa.me/9671439930?text=${encodedMessage}`;
         const detailsHTML = `
             <div class="modal-detail-row"><span class="modal-detail-label">شركة الاتصالات</span><span class="modal-detail-value">${escapeHTML(company)}</span></div>
             <div class="modal-detail-row"><span class="modal-detail-label">نوع الخدمة</span><span class="modal-detail-value">${escapeHTML(serviceType)}</span></div>
@@ -285,7 +285,7 @@
         
         const message = `طلب كروت شبكات\nالشبكة: ${network}\nالفئة: ${category} ريال\nالعدد: ${count}\nاسم العميل: ${customerName}`;
         const encodedMessage = encodeURIComponent(message);
-        const whatsappUrl = `https://wa.me/967736955757?text=${encodedMessage}`;
+        const whatsappUrl = `https://wa.me/9671439930?text=${encodedMessage}`;
         const detailsHTML = `
             <div class="modal-detail-row"><span class="modal-detail-label">نوع الشبكة</span><span class="modal-detail-value">${escapeHTML(network)}</span></div>
             <div class="modal-detail-row"><span class="modal-detail-label">فئة الكرت</span><span class="modal-detail-value">${escapeHTML(category)} ريال</span></div>
